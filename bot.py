@@ -1,6 +1,7 @@
 import os
 import sqlite3
 import json
+from telegram.error import BadRequest
 from telegram.constants import ParseMode
 from telegram import Update, InputFile, ReplyKeyboardRemove, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import (
