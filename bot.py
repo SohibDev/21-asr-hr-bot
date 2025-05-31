@@ -10,7 +10,7 @@ from telegram.ext import (
 
 # === TOKEN VA ADMIN ===
 BOT_TOKEN = "7761246714:AAEL1j05-2gOImgVmaTPAuMBe9uHuXrtfUQ"
-ADMIN_IDS = [5498281083, 7546949428]  # O‘zingizning ID’ingiz bilan almashtiring
+ADMIN_IDS = [7546949428]  # O‘zingizning ID’ingiz bilan almashtiring
 
 # === BOSQICHLAR ===
 FULL_NAME, AGE, PROFESSION, PHONE, PHOTO, CV = range(6)
@@ -84,7 +84,7 @@ async def notify_admins(context, data, photo_path=None, cv_path=None):
 
     for admin_id in ADMIN_IDS:
         try:
-            # Foto yuborish
+            # Foto yuborishmi
             if photo_path and os.path.exists(photo_path):
                 with open(photo_path, "rb") as photo_file:
                     await context.bot.send_photo(
@@ -166,7 +166,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("❌ Jarayon bekor qilindi.", reply_markup=ReplyKeyboardRemove())
     return ConversationHandler.END
 
-# === ADMIN BUYRUQLARI ===
+# === ADMIN BUYRUQLARId ===
 async def list_applications(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if update.message.from_user.id not in ADMIN_IDS:
         await update.message.reply_text("⛔ Sizda ruxsat yo‘q.")
@@ -230,3 +230,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
