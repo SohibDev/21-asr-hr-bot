@@ -1,0 +1,26 @@
+{
+    "5498281083": {
+        "full_name": "s",
+        "age": "s",
+        "profession": "s",
+        "phone": "s",
+        "photo_path": "photos/5498281083.jpg",
+        "cv_path": null
+    },
+    "7367240273": {
+        "full_name": "Sohibjon",
+        "age": "18",
+        "profession": "Trader",
+        "phone": "+9989955552",
+        "photo_path": "photos/7367240273.jpg",
+        "cv_path": null
+    },
+    "7546949428": {
+        "full_name": "Jumanazar",
+        "age": "43",
+        "profession": "Tuxumpurush",
+        "phone": "991084169",
+        "photo_path": "photos/7546949428.jpg",
+        "cv_path": null
+    }
+}
