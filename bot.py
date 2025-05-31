@@ -5,11 +5,11 @@ from telegram.constants import ParseMode
 from telegram import Update, InputFile, ReplyKeyboardRemove, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import (
     ApplicationBuilder, CommandHandler, MessageHandler, filters,
-    ContextTypes, ConversationHandler, CallbackQueryHandler
+    ContextTypes, ConversationHandler
 )
 
 # === TOKEN VA ADMIN ===
-BOT_TOKEN = "7761246714:AAEL1j05-2gOImgVmaTPAuMBe9uHuXrtfUQ"
+BOT_TOKEN = "7772357400:AAHRMUrMf_-yfjCCVgLW_AUckxxeSmyr9eM"
 ADMIN_IDS = [7546949428]  # O‘zingizning ID’ingiz bilan almashtiring
 
 # === BOSQICHLAR ===
